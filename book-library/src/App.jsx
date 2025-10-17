@@ -23,6 +23,7 @@ import davinci from "./assets/davinci.jpg";
 import digital from "./assets/digital.jpg";
 import warriors from "./assets/warriors.jpg";
 import wolves from "./assets/wolves.jpg";
+import Login from "./pages/Login/Login";
 
 
 function App() {
@@ -217,7 +218,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage books={books} />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<HomePage books={books} />} />
         <Route path="/book/:id" element={<BookDetailPage books={books} />} />
         <Route path="/add" element={<AddBookPage onAddBook={handleAddBook} />} />
       </Routes>
