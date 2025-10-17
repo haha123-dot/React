@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
   const navigate = useNavigate();
 
   const handleLogin = (e) => {
-    navigate("/home");
+    if (username && password !== " "){
+      navigate("/home");
+    } else {
+      alert(`Masukkan username dan password`)
+    }
   };
 
   return (
