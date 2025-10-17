@@ -1,0 +1,45 @@
+.myDiv {
+  display: flex;
+  justify-content: space-between; /* nama di kiri, tombol di kanan */
+  align-items: center;
+  background-color: rgb(54, 46, 46);
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 15px 25px;
+  margin-top: 30px;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+
+/* Navigasi kanan */
+.nav {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Teks link */
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 15px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #aaff00;
+}
+
+/* Nama web */
+.myDiv h2 {
+  color: rgb(162, 255, 1);
+  font-size: 30px;
+  margin: 0;
+}

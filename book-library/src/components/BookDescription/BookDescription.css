@@ -1,0 +1,17 @@
+.book-desc img {
+  width: 250px;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: left;
+}
+
+.book-desc p {
+  color: #333;
+  line-height: 1.5;
+}
+
+.book-info {
+  color: #444;
+  margin: 10px 0;
+}

@@ -1,0 +1,9 @@
+.book-header h2 {
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.book-header h4 {
+  color: #666;
+  font-weight: normal;
+}

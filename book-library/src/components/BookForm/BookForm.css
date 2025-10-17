@@ -1,0 +1,24 @@
+.book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 25px;
+}
+.book-form textarea {
+  border-radius: 6px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.book-form button {
+  margin-top: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.book-form button:hover {
+  background: #218838;
+}
