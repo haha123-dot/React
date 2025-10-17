@@ -35,21 +35,19 @@
   padding: 2rem 0;
 }
 
-/* Kotak utama detail buku */
 .book-detail {
   background: #ffffff;
   border: 2px solid #d1d5db;
   width: 90%;
-  max-width: 2000px; /* 2000px terlalu besar untuk layout tengah */
+  max-width: 2000px;
   padding: 25px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   box-sizing: border-box;
-  margin: 20px auto; /* <--- ini yang bikin border-nya ke tengah */
+  margin: 20px auto; 
   text-align: left;
 }
 
-/* Layout kiri-kanan */
 .book-layout {
   display: flex;
   align-items: center; 
@@ -58,7 +56,6 @@
 }
 
 
-/* Gambar kiri */
 .book-image {
   width: 250px;
   border-radius: 10px;
@@ -67,7 +64,7 @@
   display: block;
   margin: 0 auto;
 }
-/* Teks kanan */
+
 .book-text {
   flex: 1;
   display: flex;
@@ -75,7 +72,6 @@
   gap: 10px;
 }
 
-/* Header buku */
 .book-header h2 {
   font-size: 50px;
   font-weight: bold;
@@ -89,13 +85,11 @@
   margin-top: 0;
 }
 
-/* Info tambahan */
 .book-info {
   color: #374151;
   font-size: 25px;
 }
 
-/* Deskripsi */
 .book-desc {
   color: #444;
   line-height: 1.6;
@@ -103,7 +97,6 @@
   text-align: justify;
 }
 
-/* Tombol kembali */
 .back-btn {
   display: block;
   width: fit-content;
@@ -116,14 +109,13 @@
   font-size: 25px;
   transition: background 0.3s;
   position: relative;
-  left: 0%; /* geser dikit dari kiri layar */
+  left: 0%;
 }
 
 .back-btn:hover {
   background: #1e40af;
 }
 
-/* Responsif */
 @media (max-width: 700px) {
   .book-layout {
     flex-direction: column;

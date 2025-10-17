@@ -1,6 +1,6 @@
 .myDiv {
   display: flex;
-  justify-content: space-between; /* nama di kiri, tombol di kanan */
+  justify-content: space-between; 
   align-items: center;
   background-color: rgb(54, 46, 46);
   border: 3px solid white;
@@ -12,7 +12,6 @@
   top: 0;
 }
 
-/* Navigasi kanan */
 .nav {
   display: flex;
   justify-content: right;
@@ -22,7 +21,6 @@
   border-radius: 5px;
 }
 
-/* Teks link */
 .nav a {
   text-decoration: none;
   color: #ffffff;
@@ -37,7 +35,6 @@
   color: #aaff00;
 }
 
-/* Nama web */
 .myDiv h2 {
   color: rgb(162, 255, 1);
   font-size: 30px;
