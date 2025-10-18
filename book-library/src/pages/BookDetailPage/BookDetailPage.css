@@ -55,7 +55,6 @@
   gap: 30px;
 }
 
-
 .book-image {
   width: 250px;
   border-radius: 10px;
@@ -115,26 +114,4 @@
 
 .back-btn:hover {
   background: #1e40af;
-}
-
-@media (max-width: 700px) {
-  .book-layout {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .book-image {
-    width: 80%;
-  }
-
-  .book-text {
-    text-align: center;
-  }
-}
-
-@media (max-width: 700px) {
-  .container nav {
-    flex-direction: column;
-    gap: 10px;
-  }
 }

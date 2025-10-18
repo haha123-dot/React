@@ -8,7 +8,7 @@ function BookCard({ book }) {
       <img src={book.poster} alt={book.title} className="book-poster" />
       <div className="book-content">
         <h3>{book.title}</h3>
-        <p>{book.publisher}</p>
+        <p>{book.author}</p>
         <small>{book.genre} • {book.year}</small>
       </div>
 

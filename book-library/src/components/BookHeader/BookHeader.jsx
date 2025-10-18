@@ -10,4 +10,4 @@ function BookHeader({ title, author }) {
   );
 }
 
-export default BookHeader
+export default BookHeader;

@@ -23,4 +23,4 @@ function HomePage({ books }) {
   );
 }
 
-export default HomePage
+export default HomePage;

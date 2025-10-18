@@ -4,7 +4,7 @@ import Navigation from "../../components/Navigation/Navigation";
 import "./AddBookPage.css";
 import Footer from "../../components/Footer/Footer";
 
-export default function AddBookPage({ onAddBook }) {
+function AddBookPage({ onAddBook }) {
   return (
     <div className="add-book-page">
       <Navigation />
@@ -14,3 +14,5 @@ export default function AddBookPage({ onAddBook }) {
     </div>
   );
 }
+
+export default AddBookPage;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css"
+import "./Footer.css";
 
 function Footer() {
     return(
@@ -7,6 +7,6 @@ function Footer() {
             <p>Copyright &copy; 2025 LitCorner</p>
         </div>
     );
-};
+}
 
 export default Footer;

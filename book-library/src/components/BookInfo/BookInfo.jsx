@@ -11,4 +11,4 @@ function BookInfo({ year, genre }) {
 }
 
 
-export default BookInfo
+export default BookInfo;

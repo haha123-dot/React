@@ -67,21 +67,3 @@
 .detail-btn:hover {
   background: #005dc1;
 }
-
-@media (max-width: 900px) {
-  .book-card {
-    width: 45%;
-    height: 400px;
-  }
-}
-
-@media (max-width: 600px) {
-  .book-card {
-    width: 100%;
-    height: auto;
-  }
-
-  .book-poster {
-    height: 200px;
-  }
-}

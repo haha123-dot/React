@@ -10,4 +10,4 @@ function FormInput({ label, name, value, onChange }) {
   );
 }
 
-export default FormInput
+export default FormInput;

@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import FormInput from "../FormInput/FormInput";
 import "./BookForm.css";
 
 function BookForm({ onAddBook }) {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     title: "",
     author: "",
@@ -18,8 +20,16 @@ function BookForm({ onAddBook }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const { title, author, year, genre, description, poster } = formData;
+    if (!title || !author || !year || !genre || !description || !poster) {
+      alert("Harap isi semua data buku sebelum menambahkan!");
+      return;
+    }
+
     onAddBook(formData);
-    alert("Buku berhasil ditambahkan!");
+    alert("📚 Buku berhasil ditambahkan!");
+
     setFormData({
       title: "",
       author: "",
@@ -28,6 +38,8 @@ function BookForm({ onAddBook }) {
       description: "",
       poster: "",
     });
+
+    navigate("/home");
   };
 
   return (
@@ -43,4 +55,4 @@ function BookForm({ onAddBook }) {
   );
 }
 
-export default BookForm
+export default BookForm;

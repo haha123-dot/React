@@ -10,4 +10,4 @@ function BookDescription({ desc, poster }) {
   );
 }
 
-export default BookDescription
+export default BookDescription;

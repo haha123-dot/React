@@ -33,4 +33,4 @@ function BookDetailPage({ books }) {
   );
 }
 
-export default BookDetailPage
+export default BookDetailPage;
