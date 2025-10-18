@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import BookDetailPage from "./pages/BookDetailPage/BookDetailPage";
 import AddBookPage from "./pages/AddBookPage/AddBookPage";
@@ -216,14 +216,14 @@ function App() {
   };
 
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<HomePage books={books} />} />
         <Route path="/book/:id" element={<BookDetailPage books={books} />} />
         <Route path="/add" element={<AddBookPage onAddBook={handleAddBook} />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
