@@ -7,7 +7,7 @@ function Navigation() {
     <div className="myDiv">
       <h2>LitCorner</h2>
       <nav className="nav">
-        <Link to="/">🏠 Home</Link>
+        <Link to="/home">🏠 Home</Link>
         <Link to="/add">➕ Tambah Buku</Link>
       </nav>
     </div>
